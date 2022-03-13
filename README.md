@@ -75,3 +75,24 @@ Pseudo-Code
   <dt>if (x > 1)</dt>
   <dd>On vérifie si x est supérieure à 1, cela permet de savoir si on se situe a la fin de la ligne.</dd>
 </dl>
+
+<dl>
+  <dt>ft_putchar(v3);</dt>
+  <dd>Si c'est le cas, alors on affiche le dernier caractère (ici \).</dd>
+
+  <dt>ft_putchar('\n');</dt>
+  <dd>Après avoir print la dernière valeur, on veut faire un retour a la ligne pour continuer ou simplement pour arrêter si il n'y a pas de nouvelle ligne a éxécuter.</dd>
+</dl>
+
+------
+
+Pour la fonction rush
+-------------------
+
+<dl>
+  <dt>int i;</dt>
+  <dd>On instancie i, il va nous servir de compteur.</dd>
+  
+  <dt>if (x > 0 && y > 0)</dt>
+  <dd>Ici, on vérifie <b>LE PLUS IMPORTANT !</b> C'est a dire qu'on verifie si l'utilisateur n'est pas nulle</dd>
+</dl>
